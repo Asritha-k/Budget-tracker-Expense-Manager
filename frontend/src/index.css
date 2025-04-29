@@ -1,0 +1,30 @@
+/* index.css */
+
+/* Page background & typography */
+body {
+  background: #f3f4f6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #1f2937;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h2 {
+  margin-bottom: 1rem;
+}
+h3, h4 {
+  margin: 0.75rem 0;
+}
+
+/* Center forms on auth pages */
+.login-container,
+.signup-container {
+  max-width: 400px;
+  margin: 3rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
